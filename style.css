@@ -174,6 +174,12 @@ body {
     width: 40vw;
 }
 
+#container-9:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
 #container-10 {
     grid-column: 1;
     grid-row: 2;
@@ -184,6 +190,12 @@ body {
     filter: blur(.3px);
     box-shadow: .1px .1px 3px .2px;
     width: 40vw;
+
+}
+
+#container-10:hover {
+    border: 1px solid black;
+    cursor: pointer;
 
 }
 
@@ -201,6 +213,12 @@ body {
 
 }
 
+#container-11:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
 #container-12 {
     grid-column: 2;
     grid-row: 2;
@@ -211,6 +229,12 @@ body {
     filter: blur(.3px);
     box-shadow: .1px .1px 3px .2px;
     width: 40vw;
+
+}
+
+#container-12:hover {
+    border: 1px solid black;
+    cursor: pointer;
 
 }
 

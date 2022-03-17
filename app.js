@@ -9,9 +9,7 @@ const containerTwelve = document.getElementById("container-12");
 
 
 
-contact.addEventListener('click', (e)=> {
-    contact.classList.toggle(contactChange);
-})
+
 containerOne.addEventListener('click', (e)=> {
     window.location='https://slyons2397.github.io/odin-recipes/'
 })
