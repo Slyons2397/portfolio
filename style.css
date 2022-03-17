@@ -1,0 +1,241 @@
+
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344473 ;
+    height: 10vh;
+    color: white;
+    box-shadow: .1px .1px 3px .2px;
+    margin-bottom: 1px;
+
+    
+}
+
+#project-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8AAAA;
+    height: 10vh;
+        box-shadow: .1px .1px 3px .2px;
+
+
+}
+
+#project-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
+
+#basic-projects {
+    display: grid;
+    justify-items: center;
+}
+
+#basic-title {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#basic-container-1 {
+    display: grid;
+    grid-row: 2;
+    height: 20vh;
+    width: 80vw;
+    grid-column: 1;
+    gap: .29rem;
+}
+
+
+
+#container-1 {
+    background-image: url(images/recipewebpage.png) ;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.4px);
+    box-shadow: .1px .1px 3px .2px;
+}
+
+#container-1:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+
+
+#container-2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 12.15.35\ PM.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.2px);
+    box-shadow: .1px .1px 3px .2px;
+
+}
+#container-2:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+#container-3 {
+    grid-row: 2;
+
+}
+
+#container-4 {
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+#intermediate-projects {
+    display: grid;
+    justify-items: center;
+}
+
+#basic-container-2 {
+    display: grid;
+    grid-row: 2;
+    height: 20vh;
+    width: 80vw;
+    grid-column: 1;
+    gap: .29rem;
+}
+
+#container-5 {
+    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 11.44.42\ AM.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+}
+
+#container-5:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+#container-6 {
+    grid-column:2;
+    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 12.31.53\ PM.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+}
+
+#container-6:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#javascript-apps {
+    display: grid;
+    justify-items: center;
+    
+}
+
+#javascript-container {
+    display: grid;
+    justify-items: center;
+    display: grid;
+    grid-row: 2;
+    height: 20vh;
+    width: 80vw;
+    grid-column: 1;
+    gap: .39rem;
+    margin-bottom: 30px;
+}
+
+#container-9 {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 11.42.51\ AM.png);
+    background-size: 70%;
+    background-color: #2a2c34;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+    width: 40vw;
+}
+
+#container-10 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 12.57.49\ PM.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+    width: 40vw;
+
+}
+
+#container-11 {
+    grid-column: 2;
+    grid-row:1;
+    background-image: url(images/calculator.png);
+    background-size:20%;
+    background-color: #121a1e;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+    width: 40vw;
+
+}
+
+#container-12 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(images/booklist.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.3px);
+    box-shadow: .1px .1px 3px .2px;
+    width: 40vw;
+
+}
+
+#pre-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #344473 ;
+    color: white;
+    line-height: .15;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8AAAA;
+}
+
+a {
+    text-decoration: none;
+    filter: blur(0px);
+    color: black;
+}
+
+
