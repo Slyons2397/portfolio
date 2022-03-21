@@ -6,6 +6,8 @@ const containerNine = document.getElementById("container-9");
 const containerTen = document.getElementById("container-10");
 const containerEleven = document.getElementById("container-11");
 const containerTwelve = document.getElementById("container-12");
+const containerThirteen = document.getElementById("container-13");
+
 
 
 
@@ -49,3 +51,9 @@ containerTwelve.addEventListener('click', (e)=> {
     window.location='https://slyons2397.github.io/booklist/'
 
 })
+
+containerThirteen.addEventListener('click', (e)=> {
+    window.location='https://slyons2397.github.io/tictactoe/'
+})
+
+

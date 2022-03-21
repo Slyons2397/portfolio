@@ -255,6 +255,26 @@ body {
 
 }
 
+#container-13 {
+    grid-column: 1/ span 2;
+    grid-row: 3;
+    background-image: url(images/tictactoe.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(.04rem);
+    box-shadow: .1px .1px 3px .2px;
+    width: 40vw;
+
+}
+
+#container-13:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    filter:none;
+
+}
+
 #pre-footer {
     display: flex;
     flex-direction: column;
