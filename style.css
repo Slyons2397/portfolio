@@ -168,6 +168,25 @@ h1 {
 
 }
 
+#container-7 {
+    grid-column:1;
+    background-image: url(images/responsive\ design\ screenshot.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    filter: blur(.04rem);
+    box-shadow: .1px .1px 3px .2px;
+    font-size: 0;
+}
+
+#container-7:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    filter:none;
+    font-size: 1.5rem;
+
+}
+
 #javascript-apps {
     display: grid;
     justify-items: center;
