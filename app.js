@@ -2,6 +2,7 @@ const containerOne = document.getElementById("container-1");
 const containerTwo = document.getElementById("container-2");
 const containerFive = document.getElementById("container-5");
 const containerSix = document.getElementById("container-6");
+const containerSeven = document.getElementById("container-7");
 const containerNine = document.getElementById("container-9");
 const containerTen = document.getElementById("container-10");
 const containerEleven = document.getElementById("container-11");
@@ -35,6 +36,10 @@ containerSix.addEventListener('click', (e)=> {
 
 })
 
+containerSeven.addEventListener('click', (e)=> {
+    window.location='https://slyons2397.github.io/ResponsiveDesignTest/'
+
+})
 containerNine.addEventListener('click', (e)=> {
     window.location='https://slyons2397.github.io/RockPaperScissorsV2/'
 
