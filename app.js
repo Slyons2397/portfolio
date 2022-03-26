@@ -11,12 +11,6 @@ const containerThirteen = document.getElementById("container-13");
 
 const test = document.createElement('test');
 
-
-
-containerOne.addEventListener ('mouseover', (e)=> {
-    containerOne.appendChild('test');
-})
-
 containerOne.addEventListener('click', (e)=> {
     window.location='https://slyons2397.github.io/odin-recipes/'
 })
