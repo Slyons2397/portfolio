@@ -1,6 +1,12 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s;
+
+}
 
 body {
     margin: 0;
+
 }
 h1 {
     justify-content: center;
@@ -39,6 +45,7 @@ h1 {
 
 }
 
+
 #project-container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -58,7 +65,7 @@ h1 {
 #basic-container-1 {
     display: grid;
     grid-row: 2;
-    height: 20vh;
+    height: 80vh;
     width: 80vw;
     grid-column: 1;
     gap: .29rem;
@@ -81,6 +88,9 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-color: white;
+    color:black;
 
 }
 
@@ -104,28 +114,36 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color:black;
+
 }
 
 #container-3 {
     grid-row: 2;
+    height:10vh;
 
 }
 
 #container-4 {
     grid-column: 2;
     grid-row: 2;
+    height:10vh;
 
 }
 
 #intermediate-projects {
     display: grid;
     justify-items: center;
+    height:10vh;
 }
 
 #basic-container-2 {
     display: grid;
     grid-row: 2;
-    height: 20vh;
+    height: 80vh;
     width: 80vw;
     grid-column: 1;
     gap: .29rem;
@@ -146,6 +164,11 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-color: white;
+    color:black;
+    background-size:30%;
+
 
 }
 
@@ -165,6 +188,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color: black;
 
 }
 
@@ -184,12 +211,16 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
-
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color: black;
 }
 
 #javascript-apps {
     display: grid;
     justify-items: center;
+    height:10vh;
     
 }
 
@@ -198,11 +229,11 @@ h1 {
     justify-items: center;
     display: grid;
     grid-row: 2;
-    height: 20vh;
+    height: 80vh;
     width: 80vw;
     grid-column: 1;
     gap: .39rem;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
 }
 
 #container-9 {
@@ -225,6 +256,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-size: 30%;
+    background-color: #2a2c34;
+    color: white;
 
 
 }
@@ -248,6 +283,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color: black;
 
 }
 
@@ -272,7 +311,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
-
+    transition: .5s;
+    background-size: 30%;
+    background-color: black;
+    color: white;
 }
 
 #container-12 {
@@ -294,6 +336,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color: black;
 
 }
 
@@ -316,7 +362,10 @@ h1 {
     cursor: pointer;
     filter:none;
     font-size: 1.5rem;
-
+    transition: .5s;
+    background-size: 30%;
+    background-color: white;
+    color: black;
 }
 
 #pre-footer {
@@ -328,6 +377,7 @@ h1 {
     color: white;
     line-height: .15;
     font-size: 1.5rem;
+    margin-top:20px;
 }
 
 #footer {
