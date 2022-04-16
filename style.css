@@ -81,6 +81,7 @@ h1 {
     filter: blur(.04rem);
     box-shadow: .1px .1px 3px .2px;
     font-size: 0;
+    height: 50vh;
 }
 
 #container-1:hover {
@@ -106,6 +107,8 @@ h1 {
     filter: blur(.04rem);
     box-shadow: .1px .1px 3px .2px;
     font-size: 0;
+    height: 50vh;
+
     
 
 }
@@ -157,6 +160,8 @@ h1 {
     filter: blur(.04rem);
     box-shadow: .1px .1px 3px .2px;
     font-size: 0;
+    height: 50vh;
+
 }
 
 #container-5:hover {
@@ -181,6 +186,8 @@ h1 {
     filter: blur(.04rem);
     box-shadow: .1px .1px 3px .2px;
     font-size: 0;
+    height: 50vh;
+
 }
 
 #container-6:hover {
@@ -204,6 +211,8 @@ h1 {
     filter: blur(.04rem);
     box-shadow: .1px .1px 3px .2px;
     font-size: 0;
+    height: 50vh;
+
 }
 
 #container-7:hover {
@@ -221,6 +230,7 @@ h1 {
     display: grid;
     justify-items: center;
     height:10vh;
+    margin-top: 25vh;
     
 }
 
@@ -249,6 +259,8 @@ h1 {
     width: 40vw;
     color: white;
     font-size: 0;
+    height: 50vh;
+
 }
 
 #container-9:hover {
@@ -275,6 +287,8 @@ h1 {
     box-shadow: .1px .1px 3px .2px;
     width: 40vw;
     font-size: 0;
+    height: 50vh;
+
 
 }
 
@@ -303,6 +317,8 @@ h1 {
     width: 40vw;
     color: white;
     font-size: 0;
+    height: 50vh;
+
 
 }
 
@@ -328,6 +344,8 @@ h1 {
     box-shadow: .1px .1px 3px .2px;
     width: 40vw;
     font-size: 0;
+    height: 50vh;
+
 
 }
 
@@ -354,6 +372,7 @@ h1 {
     box-shadow: .1px .1px 3px .2px;
     width: 40vw;
     font-size: 0;
+    height: 50vh;
 
 }
 
@@ -377,7 +396,7 @@ h1 {
     color: white;
     line-height: .15;
     font-size: 1.5rem;
-    margin-top:20px;
+    margin-top:120vh;
 }
 
 #footer {
