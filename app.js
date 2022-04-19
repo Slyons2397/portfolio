@@ -35,7 +35,7 @@ containerSeven.addEventListener('click', (e)=> {
 
 })
 containerNine.addEventListener('click', (e)=> {
-    window.location='https://slyons2397.github.io/RockPaperScissorsV2/'
+    window.location='https://slyons2397.github.io/rockpaperscissors/'
 
 })
 

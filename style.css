@@ -249,9 +249,9 @@ h1 {
 #container-9 {
     grid-column: 1;
     grid-row: 1;
-    background-image: url(images/Screen\ Shot\ 2022-03-17\ at\ 11.42.51\ AM.png);
+    background-image: url(images/rockpaperscissors.png);
     background-size: 70%;
-    background-color: #2a2c34;
+    background-color: #001128;
     background-repeat: no-repeat;
     background-position: center;
     filter: blur(.04rem);
