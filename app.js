@@ -26,7 +26,7 @@ containerFive.addEventListener('click', (e)=> {
 })
 
 containerSix.addEventListener('click', (e)=> {
-    window.location='https://slyons2397.github.io/AdminPage/'
+    window.location='https://slyons2397.github.io/catbox/'
 
 })
 
